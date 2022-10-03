@@ -1,0 +1,415 @@
+@media (max-width: 1024px) {
+
+  .form__input,
+  .form__select {
+    width: 100%;
+  }
+
+  .form__input:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__btn {
+    margin-right: 7px;
+    padding: 12px 35px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .hero__content {
+    max-width: 75%;
+  }
+
+  .services__item {
+    width: calc((100% - (var(--gap))) / 2);
+  }
+
+  .services__item:not(:nth-child(4n)) {
+    margin-right: 0;
+  }
+
+  .services__item:not(:nth-child(2n)) {
+    margin-right: var(--gap);
+  }
+
+  .services__item:nth-child(2n + 2):not(:nth-last-child(-n + 1)) {
+    margin-bottom: var(--gap);
+  }
+
+  .services__item:nth-child(2n - 1):not(:nth-last-child(-n + 2)) {
+    margin-bottom: var(--gap);
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__left {
+    margin-bottom: var(--gap);
+  }
+
+  .clients__item {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles__link {
+    flex-direction: column;
+  }
+
+  .articles__text {
+    padding: 20px;
+  }
+
+  .clients__item {
+    width: calc((100% - (var(--gap))) / 2);
+  }
+
+  .clients__item:not(:last-child) {
+    margin-bottom: var(--gap);
+  }
+
+  .clients__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .clients__item:not(:nth-child(2n)) {
+    margin-right: var(--gap);
+  }
+
+  .form__bottom {
+    justify-content: center;
+  }
+
+  .footer__right {
+    flex-direction: column;
+  }
+
+  .footer__left {
+    margin-bottom: 15px;
+  }
+
+  .footer__nav {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --gap: 15px;
+  }
+
+  .section-offset {
+    padding: 60px 0;
+  }
+
+  .header {
+    padding: 15px 0;
+  }
+
+  .header__logo {
+    width: 80px;
+  }
+
+  .header__btn {
+    padding: 10px 21px;
+  }
+
+  .hero {
+    padding-top: 31px;
+    padding-bottom: 0;
+    background-image: none;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+  }
+
+  .hero__content {
+    max-width: 100%;
+  }
+
+  .hero__descr {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .hero__wrapper {
+    width: 100%;
+  }
+
+  .hero__btn {
+    width: 100%;
+  }
+
+  .services__title {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
+  .services__descr {
+    margin-bottom: var(--gap);
+    padding-left: 2px;
+    width: 99%;
+    text-align: left;
+  }
+
+  .services__item {
+    padding: 15px;
+    min-height: 222px;
+  }
+
+  .services__item:nth-child(2n + 2):not(:nth-last-child(-n + 1)) {
+    margin-bottom: 20px;
+  }
+
+  .services__item:nth-child(2n - 1):not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
+  }
+
+  .services__icon {
+    margin-bottom: var(--gap);
+    width: 42px;
+    height: 42px;
+  }
+
+  .services__subtitle {
+    margin-bottom: 3px;
+    font-size: 16px;
+  }
+
+  .services__text {
+    font-size: 12px;
+  }
+
+  .articles__title {
+    margin-bottom: 14px;
+  }
+
+  .articles__list {
+    margin-bottom: -16px;
+  }
+
+  .articles__item:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  .articles__item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .articles__preview {
+    min-height: 191px;
+  }
+
+  .articles__link {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .articles__imag {
+    flex-shrink: 0;
+    width: 86px;
+    height: 100%;
+  }
+
+  .articles__text {
+    padding: 15px;
+  }
+
+  .articles__time {
+    margin-bottom: 3px;
+  }
+
+  .articles__subtitle {
+    margin-bottom: 3px;
+  }
+
+  .clients__item {
+    padding: 19px;
+    padding-right: 15px;
+    width: 100%;
+    min-height: 345px;
+  }
+
+  .clients__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .clients__item:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  .clients__title {
+    margin-bottom: 15px;
+  }
+
+  .clients__descr {
+    margin-bottom: 30px;
+  }
+
+  .clients__user {
+    padding-left: 0;
+    transform: translateY(3px);
+  }
+
+  .clients__avatar {
+    margin-right: 15px;
+  }
+
+  .contacts__title {
+    margin-bottom: 17px;
+  }
+
+  .contacts__list {
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+  }
+
+  .contacts__item {
+    margin-bottom: 30px;
+    padding-top: 37px;
+    width: 100%;
+  }
+
+  .contacts__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .contacts__caption {
+    margin-bottom: 11px;
+  }
+
+  .join-us__title {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .join-us__descr {
+    text-align: left;
+    padding-left: 5px;
+    width: 60%;
+  }
+
+  .form__top {
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+
+  .form__left {
+    width: 100%;
+  }
+
+  .form__right {
+    width: 100%;
+  }
+
+  .form__input {
+    padding-left: 20px;
+  }
+
+  .form__select {
+    padding-left: 16px;
+  }
+
+  .form__texstarea {
+    padding-left: 20px;
+    min-height: 237px;
+  }
+
+  .form__input:nth-child(2n + 2):not(:nth-last-child(-n + 1)) {
+    margin-bottom: 15px;
+  }
+
+  .form__input:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .form__select {
+    margin-bottom: 15px;
+  }
+
+  .form__wrapper {
+    width: 100%;
+  }
+
+  .form__btn {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 30px 0;
+    padding-bottom: 0;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__nav .nav__list {
+    flex-wrap: wrap;
+  }
+
+  .footer__nav {
+    margin-bottom: 9px;
+   }
+
+   .footer__nav .nav__item {
+    margin-bottom: 15px;
+   }
+
+   .footer__nav .nav__item:not(:last-child) {
+    margin-right: 31px;
+  }
+
+  .footer__right {
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .footer__left {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .footer__logo {
+    margin-bottom: 30px;
+    margin-right: 0;
+    width: 80px;
+  }
+
+  .footer__copy {
+    display: block;
+    position: relative;
+    padding: 13px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer__copy::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -15px;
+    width: calc(100% + 30px);
+    height: 1px;
+    background-color: #c4c4c4;
+  }
+}
