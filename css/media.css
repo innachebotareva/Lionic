@@ -1,5 +1,4 @@
 @media (max-width: 1024px) {
-
   .form__input,
   .form__select {
     width: 100%;
@@ -360,6 +359,7 @@
 
   .footer__container {
     flex-direction: column-reverse;
+    align-items: flex-start;
   }
 
   .footer__nav .nav__list {
